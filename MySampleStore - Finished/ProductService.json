@@ -1,0 +1,30 @@
+{        
+    "LastUpdatedDate":"2021-01-01",
+    "ProductsList": [
+        {
+            "Id": 1,
+            "Name": "Sample 1",
+            "Description": "A very good sample1",
+            "UnitPrice": 4.95
+        },
+        {
+            "Id": 2,
+            "Name": "Sample 2",
+            "Description": "A very good sample2",
+            "UnitPrice": 6.00
+        },
+        {
+            "Id": 3,
+            "Name": "Sample 3",
+            "Description": "A very good sample3",
+            "UnitPrice": 3.40
+        },
+{
+            "Id": 4,
+            "Name": "Sample 4",
+            "Description": "A very good sample4",
+            "UnitPrice": 7.00
+        }
+
+    ]
+}
