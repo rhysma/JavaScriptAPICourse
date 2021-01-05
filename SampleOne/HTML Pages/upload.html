@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>File Upload Sample</title>
+    </head>
+    <body>
+        <h1>File Upload Sample</h1>
+       
+        <form method="post" action="api/single-file" enctype="multipart/form-data">
+            <input type="file" name="myfile" id="myfile"><br>
+                    </form>
+        <button id="submit">Submit with XHR</button>
+        
+        <script>
+            'use strict';
+
+            const form = document.querySelector('form');
+            document.getElementById('submit').addEventListener('click', () => {
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'api/single-file', false);
+            xhr.send(new FormData(form));
+        });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+</head>
+<body>
+    <form method="post" action="/api/single-file" enctype="multipart/form-data">
+        <input type="file" name="myfile" id="myfile"><br>
+    </form>
+    <button id="submit">Submit with XHR</button>
+    <img />
+    <script>
+        const input = document.getElementById('myfile');
+        const img = document.querySelector('img');
+        
+        document.getElementById('submit').addEventListener('click', () => {
+            const xhr = new XMLHttpRequest();
+            xhr.responseType = 'blob';
+            xhr.addEventListener('readystatechange', () => {
+                if(xhr.readyState === xhr.DONE){
+                    img.src = URL.createObjectURL(xhr.response);
+                }
+            });
+            xhr.open('POST', '/api/single-file');
+            xhr.send(input.files[0]);
+        });
+    </script>
+</body>
+</html>
