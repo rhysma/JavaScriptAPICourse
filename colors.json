@@ -1,0 +1,39 @@
+{
+  "colors": [
+    {
+      "id": 1,
+      "color": "black",
+      "category": "hue",
+      "type": "primary"
+    },
+    {
+      "id": 2,
+      "color": "white",
+      "category": "value"
+    },
+    {
+      "id": 3,
+      "color": "red",
+      "category": "hue",
+      "type": "primary"
+    },
+    {
+      "id": 4,
+      "color": "blue",
+      "category": "hue",
+      "type": "primary"
+    },
+    {
+      "id": 5,
+      "color": "yellow",
+      "category": "hue",
+      "type": "primary"
+    },
+    {
+      "id": 6,
+      "color": "green",
+      "category": "hue",
+      "type": "secondary"
+    }
+  ]
+}

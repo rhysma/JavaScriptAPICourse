@@ -1,0 +1,36 @@
+{
+    "ColorsList": [
+        {
+            "Id": 1,
+            "Name": "Black",
+            "Description": "hue",
+            "Type": "primary"
+        },
+        {
+            "Id": 2,
+            "Name": "White",
+            "Description": "value"
+            
+        },
+        {
+            "Id": 3,
+            "Name": "Red",
+            "Description": "Hue",
+            "Type": "primary"
+        },
+        {
+            "Id": 4,
+            "Name": "Blue",
+            "Description": "Hue",
+            "Type": "primary"
+        },
+        {
+            "Id": 5,
+            "Name": "Purple",
+            "Description": "Hue",
+            "Type": "secondary"
+        }
+
+
+    ]
+}

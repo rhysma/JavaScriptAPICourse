@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<form action="/auth/login" method="post" enctype="application/x-www-form-urlencoded">
+  <div class="container">
+    <h1>Login</h1>
+    <p>Please fill in this form to log in</p>
+    <hr>
+
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" id="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" id="password" required>
+
+    <hr>
+    <button type="submit" class="registerbtn">Login</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Need an account? <a href="register.html">Register</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
